@@ -15,12 +15,15 @@
   "author": "Sumesh J",
   "type": "commonjs",
   "scripts": {
+    "start": "vite",
+    "build": "vite build",
     "test": "jest"
   },
   "devDependencies": {
     "vite": "^7.1.3"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^5.0.1",
     "browserslist": "^4.25.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
